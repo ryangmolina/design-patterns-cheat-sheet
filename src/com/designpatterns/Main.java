@@ -29,6 +29,7 @@ import com.designpatterns.creational.builder.Cake;
 import com.designpatterns.creational.singleton.Singleton;
 import com.designpatterns.creational.singleton.SingletonBillPugh;
 import com.designpatterns.creational.singleton.SingletonEnum;
+import com.designpatterns.dependency_injection.*;
 import com.designpatterns.oop_principle.Creature;
 import com.designpatterns.oop_principle.Giraffe;
 import com.designpatterns.structural.adapter.AudioPlayer;
@@ -271,6 +272,10 @@ public class Main {
 		ComputerPart computer = new Computer();
 		computer.accept(new ComputerPartDisplayVisitor());
 
+
+		Heater heater = new ElectricHeater();
+		Pump pump = new Thermosiphon(heater);
+        CoffeeMaker coffeeMaker = new CoffeeMaker(heater, pump);
 
     }
     // client code here
