@@ -20,4 +20,12 @@ public class CoffeeMaker {
 		this.heater = heater;
 		this.pump = pump;
 	}
+
+	/**
+	 * Without Dependency injection
+	 */
+	public CoffeeMaker() {
+		this.heater = new ElectricHeater();
+		this.pump = new Thermosiphon(heater);
+	}
 }

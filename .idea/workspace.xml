@@ -26,17 +26,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoffeeMaker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoffeeMaker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/designpatterns/dependency_injection/CoffeeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="144">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FakeHeater.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FakeHeater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/designpatterns/dependency_injection/FakeHeater.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/src/com/designpatterns/dependency_injection/Heater.java" />
         <option value="$PROJECT_DIR$/src/com/designpatterns/dependency_injection/ElectricHeater.java" />
         <option value="$PROJECT_DIR$/src/com/designpatterns/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/designpatterns/dependency_injection/CoffeeMaker.java" />
         <option value="$PROJECT_DIR$/src/com/designpatterns/dependency_injection/FakeHeater.java" />
+        <option value="$PROJECT_DIR$/src/com/designpatterns/dependency_injection/CoffeeMaker.java" />
       </list>
     </option>
   </component>
@@ -814,6 +814,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -825,18 +826,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpatterns/dependency_injection/CoffeeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/designpatterns/dependency_injection/FakeHeater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpatterns/dependency_injection/CoffeeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
